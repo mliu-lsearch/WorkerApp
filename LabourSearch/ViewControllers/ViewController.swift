@@ -63,7 +63,6 @@ class ViewController: UITabBarController {
         
         self.addTarBar()
         
-        
         //M: setting for navigation bar
         self.title = "Casual Earnings"
         
