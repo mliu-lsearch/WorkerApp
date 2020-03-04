@@ -47,9 +47,6 @@ import UIKit
 class ViewController: UITabBarController {
     var view1 = View1()
     
-    
-    
-    
 //    let leftBarButtonItem: UIBarButtonItem = {
 //        let barButtonItem = UIBarButtonItem(title: "to 4", style: .plain, target: self, action: nil)
 //        barButtonItem.tintColor = UIColor.gray
@@ -60,6 +57,8 @@ class ViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         
         self.addTarBar()
         
@@ -72,6 +71,13 @@ class ViewController: UITabBarController {
 
         UINavigationBar.appearance().isTranslucent = false
         self.extendedLayoutIncludesOpaqueBars = true
+        
+        //M: do the network service after launching the app
+        //FetchJsons.getJsonDataFromWebServer()
+        
+        FetchJsons.getEventTypeFromWebServer()
+        
+        
     }
     
     
@@ -82,14 +88,11 @@ class ViewController: UITabBarController {
 
 
         SizeConfig.tabBarHeight = self.tabBar.frame.height
+        
         tabBar.barTintColor = ColorConfig.selectionViewBackgroundColor
         tabBar.isTranslucent = false
         
-
-
-        
-        
-
+    
         vc1.tabBarItem.image = UIImage(named: "Dollar")
         vc1.tabBarItem.title = "Calculator"
         

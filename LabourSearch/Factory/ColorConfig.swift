@@ -13,6 +13,8 @@ struct ColorConfig {
     //M: mainView
     static let mainViewBackgroundColor = UIColor(red: (5 / 255.0), green: (23 / 255.0), blue: (66 / 255.0), alpha: 1)
     
+    static let lightMainViewBackgroundColor = UIColor(red: (45 / 255.0), green: (63 / 255.0), blue: (126 / 255.0), alpha: 1)
+    
     //M: result label
     static let resultLabelBackgroundColor = UIColor.clear
     static let resultLabelTextColor = UIColor.white
@@ -135,5 +137,21 @@ struct ColorConfig {
     //M: gradient color
     static let gradientLeftColor = UIColor(red: (51 / 255.0), green: (33 / 255.0), blue: (220 / 255.0), alpha: 1)
     static let gradientRightColor = UIColor(red: (200 / 255.0), green: (109 / 255.0), blue: (205 / 255.0), alpha: 1)
+    
+    
+    
+    //M: colors for the selector
+    //Turquoise
+    static let selectorColorTurqupise = UIColor(red: (64 / 255.0), green: (224 / 255.0), blue: (208 / 255.0), alpha: 0.7)
+    static let selectorColorCyan = UIColor(red: (0 / 255.0), green: (255 / 255.0), blue: (255 / 255.0), alpha: 0.7)
+    static let selectorColorAquamarine = UIColor(red: (127 / 255.0), green: (255 / 255.0), blue: (212 / 255.0), alpha: 0.7)
+    static let selectorColorMintGreen = UIColor(red: (152 / 255.0), green: (255 / 255.0), blue: (152 / 255.0), alpha: 0.7)
+    static let selectorColorLightPink = UIColor(red: (255 / 255.0), green: (182 / 255.0), blue: (193 / 255.0), alpha: 0.7)
+    static let selectorColorGrassGreen = UIColor(red: (96 / 255.0), green: (128 / 255.0), blue: (56 / 255.0), alpha: 0.7)
+    static let selectorColorCrimson = UIColor(red: (220 / 255.0), green: (20 / 255.0), blue: (60 / 255.0), alpha: 0.7)
+    static let selectorColorPastelOrange = UIColor(red: (255 / 255.0), green: (179 / 255.0), blue: (71 / 255.0), alpha: 0.7)
+    static let selectorColorBronze = UIColor(red: (205 / 255.0), green: (127 / 255.0), blue: (50 / 255.0), alpha: 0.7)
+    static let selectorColorWhite = UIColor(red: (255 / 255.0), green: (255 / 255.0), blue: (255 / 255.0), alpha: 1)
+    static let selectorColorClear = UIColor(red: (255 / 255.0), green: (255 / 255.0), blue: (255 / 255.0), alpha: 1)
     
 }

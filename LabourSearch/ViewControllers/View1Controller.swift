@@ -43,6 +43,11 @@ class View1Controller: UIViewController {
     }
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.navigationItem.title = "Causal Earnings"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

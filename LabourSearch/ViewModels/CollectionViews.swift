@@ -20,12 +20,12 @@ class CollectionViews: UICollectionView {
     }
     
     
-    init(layout:UICollectionViewLayout, x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat, manager: UIView){
+    init(layout:UICollectionViewLayout, x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat, backgroundColor: UIColor){
         super.init(frame:  .zero, collectionViewLayout: layout)
         
-        self.backgroundColor = .white
+        self.backgroundColor = backgroundColor
         self.frame = CGRect(x:x, y:y, width: width, height:height)
-        manager.addSubview(self)
+        //manager.addSubview(self)
     }
     
     

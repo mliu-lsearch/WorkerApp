@@ -192,4 +192,6 @@ struct SizeConfig {
     static var navigationControllerHeight: CGFloat = mainHeight - navigationControllerY -  tabBarHeight //M: need reduce the tabbar height
     
     static var tabBarHeight: CGFloat = 49
+    
+    
 }

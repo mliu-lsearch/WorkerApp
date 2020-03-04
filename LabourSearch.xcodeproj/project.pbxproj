@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1312829823A3238400985B0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1312829723A3238400985B0F /* Extensions.swift */; };
+		1317FE0823976DB80076EE74 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1317FE0723976DB80076EE74 /* View2.swift */; };
+		1327358E238E365000C26F6C /* View2DownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327358D238E365000C26F6C /* View2DownView.swift */; };
+		1328266F23B882E60075F21A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1328266E23B882E60075F21A /* Globals.swift */; };
+		1343228D23C208C90055D74A /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1343228C23C208C90055D74A /* CalendarModel.swift */; };
+		13624C80238DE8EF0041EEEC /* LabourSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13624C7F238DE8EF0041EEEC /* LabourSearchUITests.swift */; };
+		13624C88238DE9760041EEEC /* LabourSearchUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13624C87238DE9760041EEEC /* LabourSearchUITestCase.swift */; };
+		1382D02923C56E99002AD8A9 /* FetchJsons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382D02823C56E99002AD8A9 /* FetchJsons.swift */; };
+		138A184C23BECA27003467C1 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 138A184B23BECA26003467C1 /* bookmark.png */; };
+		1394CB9E2395EF210059007A /* SizeConfig2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394CB9D2395EF210059007A /* SizeConfig2.swift */; };
 		13EADA40237FAC78003489B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA3F237FAC78003489B1 /* AppDelegate.swift */; };
 		13EADA42237FAC78003489B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA41237FAC78003489B1 /* ViewController.swift */; };
 		13EADA48237FAC78003489B1 /* LabourSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA46237FAC78003489B1 /* LabourSearch.xcdatamodeld */; };
@@ -27,7 +37,7 @@
 		13EADA7B237FB2B6003489B1 /* StringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA7A237FB2B6003489B1 /* StringValue.swift */; };
 		13EADA7D237FB808003489B1 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA7C237FB808003489B1 /* View2Controller.swift */; };
 		13EADA7F237FB813003489B1 /* View3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA7E237FB813003489B1 /* View3Controller.swift */; };
-		13EADA81237FBA98003489B1 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA80237FBA98003489B1 /* View2.swift */; };
+		13EADA81237FBA98003489B1 /* View2UpperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA80237FBA98003489B1 /* View2UpperView.swift */; };
 		13EADA83237FBABA003489B1 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA82237FBABA003489B1 /* View3.swift */; };
 		13EADA85237FBB5C003489B1 /* View1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA84237FBB5C003489B1 /* View1Controller.swift */; };
 		13EADA8E237FBF2B003489B1 /* Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EADA8D237FBF2B003489B1 /* Dollar.png */; };
@@ -37,9 +47,33 @@
 		13EADA99237FF3D7003489B1 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA98237FF3D7003489B1 /* CalculationModel.swift */; };
 		13EADA9B2380084C003489B1 /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EADA9A2380084C003489B1 /* DatePickers.swift */; };
 		13EADA9D2380DE58003489B1 /* calculateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EADA9C2380DE58003489B1 /* calculateButton.png */; };
+		13EF31A423B082890062BC7C /* View2SideDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF31A323B082890062BC7C /* View2SideDrawerView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		13624C82238DE8EF0041EEEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EADA34237FAC78003489B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EADA3B237FAC78003489B1;
+			remoteInfo = LabourSearch;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1312829723A3238400985B0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1317FE0723976DB80076EE74 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		1327358D238E365000C26F6C /* View2DownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2DownView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1328266E23B882E60075F21A /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1343228C23C208C90055D74A /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		13624C7D238DE8EF0041EEEC /* LabourSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabourSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13624C7F238DE8EF0041EEEC /* LabourSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabourSearchUITests.swift; sourceTree = "<group>"; };
+		13624C81238DE8EF0041EEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13624C87238DE9760041EEEC /* LabourSearchUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabourSearchUITestCase.swift; sourceTree = "<group>"; };
+		1382D02823C56E99002AD8A9 /* FetchJsons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchJsons.swift; sourceTree = "<group>"; };
+		138A184B23BECA26003467C1 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		139141E523A662C500ABD257 /* JsonEvent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = JsonEvent.md; sourceTree = "<group>"; usesTabs = 0; };
+		1394CB9D2395EF210059007A /* SizeConfig2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConfig2.swift; sourceTree = "<group>"; };
 		13EADA3C237FAC78003489B1 /* LabourSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabourSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13EADA3F237FAC78003489B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13EADA41237FAC78003489B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +96,7 @@
 		13EADA7A237FB2B6003489B1 /* StringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValue.swift; sourceTree = "<group>"; };
 		13EADA7C237FB808003489B1 /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 		13EADA7E237FB813003489B1 /* View3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3Controller.swift; sourceTree = "<group>"; };
-		13EADA80237FBA98003489B1 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		13EADA80237FBA98003489B1 /* View2UpperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2UpperView.swift; sourceTree = "<group>"; };
 		13EADA82237FBABA003489B1 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		13EADA84237FBB5C003489B1 /* View1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Controller.swift; sourceTree = "<group>"; };
 		13EADA8D237FBF2B003489B1 /* Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dollar.png; sourceTree = "<group>"; };
@@ -72,9 +106,17 @@
 		13EADA98237FF3D7003489B1 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
 		13EADA9A2380084C003489B1 /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
 		13EADA9C2380DE58003489B1 /* calculateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculateButton.png; sourceTree = "<group>"; };
+		13EF31A323B082890062BC7C /* View2SideDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2SideDrawerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		13624C7A238DE8EF0041EEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13EADA39237FAC78003489B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,10 +127,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1327358C238E353C00C26F6C /* View2s */ = {
+			isa = PBXGroup;
+			children = (
+				1317FE0723976DB80076EE74 /* View2.swift */,
+				13EADA80237FBA98003489B1 /* View2UpperView.swift */,
+				1327358D238E365000C26F6C /* View2DownView.swift */,
+				13EF31A323B082890062BC7C /* View2SideDrawerView.swift */,
+			);
+			path = View2s;
+			sourceTree = "<group>";
+		};
+		13624C7E238DE8EF0041EEEC /* LabourSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13624C7F238DE8EF0041EEEC /* LabourSearchUITests.swift */,
+				13624C81238DE8EF0041EEEC /* Info.plist */,
+				13624C87238DE9760041EEEC /* LabourSearchUITestCase.swift */,
+			);
+			path = LabourSearchUITests;
+			sourceTree = "<group>";
+		};
+		1382D02723C56E60002AD8A9 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				1382D02823C56E99002AD8A9 /* FetchJsons.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		139141E623A6633600ABD257 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				13EADA7A237FB2B6003489B1 /* StringValue.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		139141E723A6636400ABD257 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				139141E523A662C500ABD257 /* JsonEvent.md */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		13EADA33237FAC78003489B1 = {
 			isa = PBXGroup;
 			children = (
 				13EADA3E237FAC78003489B1 /* LabourSearch */,
+				13624C7E238DE8EF0041EEEC /* LabourSearchUITests */,
 				13EADA3D237FAC78003489B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				13EADA3C237FAC78003489B1 /* LabourSearch.app */,
+				13624C7D238DE8EF0041EEEC /* LabourSearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,15 +193,17 @@
 		13EADA3E237FAC78003489B1 /* LabourSearch */ = {
 			isa = PBXGroup;
 			children = (
+				13EADA54237FAD08003489B1 /* Views */,
+				13EADA5A237FAE8A003489B1 /* ViewControllers */,
 				13EADA97237FF3BD003489B1 /* Model */,
 				13EADA79237FB2A7003489B1 /* Values */,
 				13EADA6A237FB1BE003489B1 /* ViewModels */,
 				13EADA65237FB03E003489B1 /* Accessories */,
 				13EADA5C237FAEC8003489B1 /* Factory */,
 				13EADA59237FAE73003489B1 /* Supporting Files */,
-				13EADA5A237FAE8A003489B1 /* ViewControllers */,
-				13EADA54237FAD08003489B1 /* Views */,
+				1382D02723C56E60002AD8A9 /* Networks */,
 				13EADA5B237FAEA9003489B1 /* DataBase */,
+				139141E723A6636400ABD257 /* Others */,
 				13EADA4E237FAC78003489B1 /* Info.plist */,
 			);
 			path = LabourSearch;
@@ -122,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				13EADA94237FF21C003489B1 /* View1s */,
-				13EADA80237FBA98003489B1 /* View2.swift */,
+				1327358C238E353C00C26F6C /* View2s */,
 				13EADA82237FBABA003489B1 /* View3.swift */,
 			);
 			path = Views;
@@ -162,6 +253,7 @@
 				13EADA5F237FAEFE003489B1 /* FontConfig.swift */,
 				13EADA61237FAF20003489B1 /* ColorConfig.swift */,
 				13EADA63237FAF37003489B1 /* SizeConfig.swift */,
+				1394CB9D2395EF210059007A /* SizeConfig2.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -171,6 +263,8 @@
 			children = (
 				13EADA66237FB061003489B1 /* Transitions.swift */,
 				13EADA5D237FAEE5003489B1 /* GradientLayers.swift */,
+				1312829723A3238400985B0F /* Extensions.swift */,
+				1328266E23B882E60075F21A /* Globals.swift */,
 			);
 			path = Accessories;
 			sourceTree = "<group>";
@@ -194,7 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				13EADA86237FBE26003489B1 /* Images */,
-				13EADA7A237FB2B6003489B1 /* StringValue.swift */,
+				139141E623A6633600ABD257 /* Strings */,
 			);
 			path = Values;
 			sourceTree = "<group>";
@@ -202,6 +296,7 @@
 		13EADA86237FBE26003489B1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				138A184B23BECA26003467C1 /* bookmark.png */,
 				13EADA9C2380DE58003489B1 /* calculateButton.png */,
 				13EADA91237FC0C0003489B1 /* Profile.png */,
 				13EADA8F237FC04B003489B1 /* Calendar.png */,
@@ -223,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				13EADA98237FF3D7003489B1 /* CalculationModel.swift */,
+				1343228C23C208C90055D74A /* CalendarModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +326,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		13624C7C238DE8EF0041EEEC /* LabourSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13624C86238DE8EF0041EEEC /* Build configuration list for PBXNativeTarget "LabourSearchUITests" */;
+			buildPhases = (
+				13624C79238DE8EF0041EEEC /* Sources */,
+				13624C7A238DE8EF0041EEEC /* Frameworks */,
+				13624C7B238DE8EF0041EEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13624C83238DE8EF0041EEEC /* PBXTargetDependency */,
+			);
+			name = LabourSearchUITests;
+			productName = LabourSearchUITests;
+			productReference = 13624C7D238DE8EF0041EEEC /* LabourSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		13EADA3B237FAC78003489B1 /* LabourSearch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13EADA51237FAC78003489B1 /* Build configuration list for PBXNativeTarget "LabourSearch" */;
@@ -257,6 +371,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = LinLiu;
 				TargetAttributes = {
+					13624C7C238DE8EF0041EEEC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 13EADA3B237FAC78003489B1;
+					};
 					13EADA3B237FAC78003489B1 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -276,11 +394,19 @@
 			projectRoot = "";
 			targets = (
 				13EADA3B237FAC78003489B1 /* LabourSearch */,
+				13624C7C238DE8EF0041EEEC /* LabourSearchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		13624C7B238DE8EF0041EEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13EADA3A237FAC78003489B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +414,7 @@
 				13EADA90237FC04B003489B1 /* Calendar.png in Resources */,
 				13EADA4A237FAC78003489B1 /* Assets.xcassets in Resources */,
 				13EADA9D2380DE58003489B1 /* calculateButton.png in Resources */,
+				138A184C23BECA27003467C1 /* bookmark.png in Resources */,
 				13EADA8E237FBF2B003489B1 /* Dollar.png in Resources */,
 				13EADA92237FC0C0003489B1 /* Profile.png in Resources */,
 			);
@@ -296,6 +423,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13624C79238DE8EF0041EEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13624C88238DE9760041EEEC /* LabourSearchUITestCase.swift in Sources */,
+				13624C80238DE8EF0041EEEC /* LabourSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13EADA38237FAC78003489B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,22 +440,30 @@
 				13EADA62237FAF20003489B1 /* ColorConfig.swift in Sources */,
 				13EADA83237FBABA003489B1 /* View3.swift in Sources */,
 				13EADA7B237FB2B6003489B1 /* StringValue.swift in Sources */,
+				1327358E238E365000C26F6C /* View2DownView.swift in Sources */,
 				13EADA6E237FB1ED003489B1 /* Labels.swift in Sources */,
-				13EADA81237FBA98003489B1 /* View2.swift in Sources */,
+				13EF31A423B082890062BC7C /* View2SideDrawerView.swift in Sources */,
+				13EADA81237FBA98003489B1 /* View2UpperView.swift in Sources */,
+				1312829823A3238400985B0F /* Extensions.swift in Sources */,
 				13EADA56237FAD44003489B1 /* View1.swift in Sources */,
+				1343228D23C208C90055D74A /* CalendarModel.swift in Sources */,
 				13EADA74237FB230003489B1 /* CollectionViews.swift in Sources */,
 				13EADA6C237FB1D3003489B1 /* Buttons.swift in Sources */,
 				13EADA72237FB21C003489B1 /* TextViews.swift in Sources */,
+				1317FE0823976DB80076EE74 /* View2.swift in Sources */,
 				13EADA67237FB061003489B1 /* Transitions.swift in Sources */,
 				13EADA9B2380084C003489B1 /* DatePickers.swift in Sources */,
+				1382D02923C56E99002AD8A9 /* FetchJsons.swift in Sources */,
 				13EADA7F237FB813003489B1 /* View3Controller.swift in Sources */,
 				13EADA60237FAEFE003489B1 /* FontConfig.swift in Sources */,
 				13EADA85237FBB5C003489B1 /* View1Controller.swift in Sources */,
 				13EADA99237FF3D7003489B1 /* CalculationModel.swift in Sources */,
+				1394CB9E2395EF210059007A /* SizeConfig2.swift in Sources */,
 				13EADA76237FB246003489B1 /* CollectionViewFlowLayouts.swift in Sources */,
 				13EADA96237FF239003489B1 /* View1SelectionView.swift in Sources */,
 				13EADA64237FAF37003489B1 /* SizeConfig.swift in Sources */,
 				13EADA70237FB206003489B1 /* TextFields.swift in Sources */,
+				1328266F23B882E60075F21A /* Globals.swift in Sources */,
 				13EADA78237FB25B003489B1 /* ImageViews.swift in Sources */,
 				13EADA7D237FB808003489B1 /* View2Controller.swift in Sources */,
 				13EADA42237FAC78003489B1 /* ViewController.swift in Sources */,
@@ -330,7 +474,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		13624C83238DE8EF0041EEEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EADA3B237FAC78003489B1 /* LabourSearch */;
+			targetProxy = 13624C82238DE8EF0041EEEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		13624C84238DE8EF0041EEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3X3K6229;
+				INFOPLIST_FILE = LabourSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LinLiu.recuritment.LabourSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabourSearch;
+			};
+			name = Debug;
+		};
+		13624C85238DE8EF0041EEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3X3K6229;
+				INFOPLIST_FILE = LabourSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LinLiu.recuritment.LabourSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabourSearch;
+			};
+			name = Release;
+		};
 		13EADA4F237FAC78003489B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,6 +678,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13624C86238DE8EF0041EEEC /* Build configuration list for PBXNativeTarget "LabourSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13624C84238DE8EF0041EEEC /* Debug */,
+				13624C85238DE8EF0041EEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		13EADA37237FAC78003489B1 /* Build configuration list for PBXProject "LabourSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

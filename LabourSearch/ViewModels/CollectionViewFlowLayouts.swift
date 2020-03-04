@@ -20,7 +20,9 @@ class CollectionViewFlowLayouts: UICollectionViewFlowLayout {
     init(spacing: CGFloat, direction: UICollectionView.ScrollDirection  ){
         super.init()
         self.minimumLineSpacing = spacing
-        self.scrollDirection = .vertical
+        self.scrollDirection = direction
     }
+    
+    
     
 }
